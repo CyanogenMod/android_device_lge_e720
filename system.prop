@@ -1,3 +1,30 @@
 #
 # system.prop for e720
 #
+
+rild.libpath=/system/lib/libril-qc-1.so
+rild.libargs=-d /dev/smd0
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+
+# larger vm heaps
+dalvik.vm.heapsize=24m
+
+ro.bt.bdaddr_path=/data/misc/bd_addr
+
+## We support GLES2
+ro.opengles.version=131072
+
+ro.product.camera=alessi
+
+## qc ril doesn't repeat the rings
+ro.telephony.call_ring.multiple=false
+ro.telephony.call_ring.delay=3000
+
