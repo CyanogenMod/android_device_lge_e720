@@ -28,3 +28,7 @@ ro.product.camera=alessi
 ro.telephony.call_ring.multiple=false
 ro.telephony.call_ring.delay=3000
 
+##power saving
+pm.sleep_mode=1        
+ro.ril.disable.power.collapse=0   
+
