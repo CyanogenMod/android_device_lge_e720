@@ -80,8 +80,8 @@ PRODUCT_PACKAGES += \
     gps.e720 \
     copybit.msm7k \
     libOmxCore \
-    libcamera
-
+    libcamera \
+    hcitool
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := e720
 PRODUCT_DEVICE := e720
