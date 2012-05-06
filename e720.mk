@@ -32,7 +32,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/AudioFilter.csv:system/etc/AudioFilter.csv \
     $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml \
     $(LOCAL_PATH)/configs/7k_handset.kl:system/usr/keylayout/7k_handset.kl \
-    $(LOCAL_PATH)/configs/touch_mcs6000.kl:system/usr/keylayout/touch_mcs6000.kl
+    $(LOCAL_PATH)/configs/touch_mcs6000.kl:system/usr/keylayout/touch_mcs6000.kl \
+    $(LOCAL_PATH)/configs/alessi_keypad.kl:system/usr/keylayout/alessi_keypad.kl \
+    $(LOCAL_PATH)/configs/AutoVolumeControl.txt:system/etc/AutoVolumeControl.txt \
+    $(LOCAL_PATH)/configs/alessi_keypad.kcm.bin:system/usr/keychars/alessi_keypad.kcm.bin \
+    $(LOCAL_PATH)/configs/lgosp-hid.kcm.bin:system/usr/keychars/lgosp-hid.kcm.bin \
+    $(LOCAL_PATH)/configs/lgosp-hid.kl:system/usr/keylayout/lgosp-hid.kl 
 
 # WiFi
 PRODUCT_COPY_FILES += \
