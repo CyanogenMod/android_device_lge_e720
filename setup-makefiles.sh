@@ -109,8 +109,8 @@ PRODUCT_COPY_FILES += \\
 
 ## HAL
 PRODUCT_COPY_FILES += \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/lib/hw/lights.alessi.so:system/lib/hw/lights.alessi.so \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/lib/hw/sensors.alessi.so:system/lib/hw/sensors.alessi.so \\
+    vendor/__VENDOR__/__DEVICE__/proprietary/lib/hw/lights.e720.so:system/lib/hw/lights.e720.so \\
+    vendor/__VENDOR__/__DEVICE__/proprietary/lib/hw/sensors.e720.so:system/lib/hw/sensors.e720.so \\
     vendor/__VENDOR__/__DEVICE__/proprietary/lib/hw/gralloc.alessi.so:system/lib/hw/gralloc.alessi.so
 
 ## gralloc dependencies
