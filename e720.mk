@@ -79,6 +79,7 @@ PRODUCT_PACKAGES += \
     lgapversion \
     gps.e720 \
     copybit.msm7k \
+    lights.msm7k \
     libOmxCore \
     libcamera
 

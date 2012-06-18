@@ -65,7 +65,6 @@ adb pull /system/lib/libaudioeq.so ../../../vendor/$VENDOR/$DEVICE/proprietary/l
 ## HAL
 adb pull /system/lib/hw/sensors.alessi.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/hw/sensors.alessi.so
 adb pull /system/lib/hw/gralloc.alessi.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/hw/
-adb pull /system/lib/hw/lights.alessi.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/hw/
 
 adb pull /system/lib/liblgosp-hal.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/
 adb pull /system/lib/libcommondefs.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/
