@@ -5,12 +5,27 @@ on boot
 
     mkdir /data/radio 0770 radio radio
 
-    mkdir /data/amit 0777 ami304d ami304d
-    chmod 0666 /data/amit/AMI306_Config.ini
-    chmod 0666 /data/amit/AMI306_Config2.ini
+## SENSOR
+  setprop ro.hardware AMIT
+  chown compass system /dev/ami304
+  chmod 0640 dev/ami304
+  chown compass system /dev/ami304daemon
+  chmod 0640 dev/ami304daemon
+  chown compass system /dev/ami304hal
+  chmod 0640 dev/ami304hal
+  mkdir /data/amit 0770 ami304d ami304d
+# LG_FW_LAB2_SENSOR  
+  chmod 0666 /data/amit/AMI304_config.ini
+#  chown compass system /dev/KR3DH
+#  chmod 0640 /dev/KR3DH
+  chown compass system /dev/KR3DM
+  chmod 0640 /dev/KR3DM
+          
+# LG_FW_LAB2_ALESSI  
+  chmod 0666 /sys/class/leds/button-backlight/brightness  
+## PROXIMITY SENSOR
+  chmod 0666 /sys/bus/i2c/drivers/apds9801/5-0055/enable
 
-    chown compass system /sys/bus/i2c/drivers/proximity_gp2ap/4-0044/enable
-    chmod 0660 /sys/bus/i2c/drivers/proximity_gp2ap/4-0044/enable
 ## LGE's bluetooth stuff
 # bluetooth permissions
     chmod 0660 /dev/ttyHS0
